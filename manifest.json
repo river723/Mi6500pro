@@ -1,0 +1,14 @@
+{
+  "domain": "mirouter",
+  "name": "Mirouter-6500pro Device Tracker",
+  "codeowners": ["@river723"],
+  "dependencies": ["http"],
+  "documentation": "https://github.com/river723/core",
+  "iot_class": "local_polling",
+  "quality_scale": "custom",
+  "requirements": [
+    "beautifulsoup4==4.12.3",
+    "pycryptodome==3.21.0",
+    "aiohttp==3.11.11"
+  ]
+}
