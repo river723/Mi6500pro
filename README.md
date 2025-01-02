@@ -6,12 +6,12 @@
 
 1. 下载并解压插件代码到 Home Assistant 配置目录下的 `custom_components/mirouter` 目录。
 2. 确保目录结构如下：
-├── custom_components/
-│   └── mirouter/
-│       ├── __init__.py
-│       ├── manifest.json
-│       ├── device_tracker.py
-│       └── encrypt.py
+    ├── custom_components/
+    │   └── mirouter/
+    │       ├── __init__.py
+    │       ├── manifest.json
+    │       ├── device_tracker.py
+    │       └── encrypt.py
 3. 在 Home Assistant 配置文件 `configuration.yaml` 中添加以下内容：
 
   device_tracker:
